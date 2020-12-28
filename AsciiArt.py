@@ -1,7 +1,10 @@
 # https://www.youtube.com/watch?v=v_raWlX7tZY
 # http://paulbourke.net/dataformats/asciiart/
 
-from PIL import Image, ImageOps
+# Font used is Consolas size 16 on windows 10 Command Prompt 
+#FONT = ImageFont.truetype('C:/Windows/Fonts/Consolas/consola.ttf', 16)
+
+from PIL import Image, ImageOps, ImageFont
 from math import floor 
 import os 
 import sys 
@@ -15,7 +18,7 @@ os.chdir(THIS_FOLDER)
 ASCII_CHARS = ['@','%','#','*','+','=','-',':','.',' ']
 #ASCII_CHARS = r"$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,\"^`'."
 MAX_GRAYSCALE = 255
-ASCII_HEIGHT_WIDTH_RATIO = 1.65
+ASCII_HEIGHT_WIDTH_RATIO = 2
 ASCII_ART_FILENAME = 'ascii_image.txt'
 
 
