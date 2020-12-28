@@ -96,8 +96,8 @@ def DisplayAscii(filename, width=100):
     print('\n\n')
         
 
-DisplayAscii('image/banana.png', 100)
-DisplayAscii('image/lime.png', 75)
 DisplayAscii('image/lena.png', 150)
 DisplayAscii('image/rocket.png', 90)
 DisplayAscii('image/uorocketry.png')
+DisplayAscii('image/lime.png', 75)
+DisplayAscii('image/banana.png', 70)
